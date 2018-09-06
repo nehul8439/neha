@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+<head>
+    <title>Interior design</title>
+	{% load static %}
+    <meta charset="utf-8">
+    <style>
+    .aside
+{
+    position: fixed;
+    background:linear-gradient(to bottom left,red,red,white);
+    height: 1600px;
+    width: 25%;
+     filter: blur(0.5px);
+    box-shadow: 18px 19px 13px black;
+    
+    
+
+
+}
+ul li{
+    
+
+            list-style-type: circle;
+           font-size: 25px;
+           list-style-type: none;
+            padding: 8px;
+     }
+
+
+
+ul{
+    
+    margin-top: 226px;
+    
+}
+    
+
+a
+{
+            
+        text-decoration: none;
+            padding: 7px;
+         color: white;
+   
+ }
+a:hover
+{
+            
+          transition: all .5s ease-out;
+            background-color: white;
+            color: orange;
+            font-size: 35px;
+            border-radius: 35px;
+            box-shadow: 30px 20px 10px black;
+            
+        }
+    
+
+.heading2
+{
+    position: absolute;
+    top: 49px;
+    left: 10px;
+    font-size: 45px;
+    font-family: serif;
+    color: darkblue;
+     text-shadow: 10px 10px 5px white;
+            
+    
+   
+}
+.heading2:hover{
+    
+    font-size: 39px;
+        
+    width: 90%;
+    height: 67px;
+   }
+
+.heading1
+{
+    font-size: 97px;
+    position: absolute;
+    top: 1px;
+    left: 466px;
+    text-shadow: 4px 4px 7px black;
+}
+
+.br1
+{
+
+    color: red;
+    font-size: 65px;
+     position: absolute;
+    top: 123px;
+    left: 466px;
+     text-shadow: 4px 4px 7px black;
+    
+}
+
+#div1
+{
+  height: 29px;
+    width: 9%;
+    background-color: red;
+    position: absolute;
+    top: 283px;
+    left:466px;
+    border-radius: 34px;
+    
+}
+    
+        .heading3{
+            
+            
+           position: absolute;
+            top: 320px;
+            left: 410px;
+            font-size: 20px;
+            color: black;
+            font-family: cursive;
+            text-shadow: 4px 4px 2px red;
+            text-align: left;   
+            
+            
+        }
+        .button1{
+            
+            background-color: red;
+            color: white;
+            position: absolute;
+            top: 879px;
+            left: 1018px;
+            height: 78px;
+            width: 17%;
+        
+            
+        }
+        .button1:hover{
+            
+            background-color: green;
+            box-shadow: 10px 12px 10px black;
+        }
+        .form1{
+            
+            height: 146px;
+            width: 45%;
+            position: absolute;
+            top: 445px;
+            left: 456px;
+            font-size: 34px;
+            
+        }
+    input[type='text']
+        {
+           height: 45px;
+            width: 857px;
+			 border: 1px solid black;
+            box-shadow: 10px 12px 10px black;
+            
+            
+            
+        }
+		.text{
+            
+            
+            width: 75%;
+            height: 195px;
+			  border: 1px solid black;
+            box-shadow: 10px 12px 10px black;
+        }  
+             
+            
+        body{
+            height: 1190px;
+        }
+    </style>
+          </head>
+    
+    <body>
+        <div class="aside"><h2 class="heading2">Home Interocity</h2>
+            <ul>
+              <li><a href="/myapp">Home</a></li>
+              <li><a href="service">Services</a></li>
+             <li><a href="designer">Designers</a></li>
+             <li><a href="package">Pacakages</a></li>
+             <li><a href="contact">Contacts</a></li>
+			  <li><a href="login">Login</a></li>
+			  <li><a href="register">Register</a></li>
+              <li><a href="signup">Signup</a></li>
+            
+            
+            </ul>
+        </div>
+        <h1 class="heading1">Interior Design
+            <h3 class="br1">Contact</h3></h1>
+        <div id="div1"></div>
+        
+        <h3 class="heading3">Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</h3>
+        
+        <button class="button1">Send Message</button>
+        
+        <form class="form1" method="POST" action="">
+			<br>
+            <p>Subject<br><input type="text" name="name1" placeholder="Enter name here"></p> 
+            
+            <p>Email Address<br><input type="text" name="name2" placeholder="Enter email address here"></p> 
+        
+        
+        
+             <p>Message<br><textarea rows="8" class="text" name="name3"></textarea></p> 
+        
+        
+        </form>  

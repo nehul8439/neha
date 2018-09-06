@@ -1,0 +1,225 @@
+.aside
+{
+    position: fixed;
+    background:linear-gradient(to bottom left,red,red,white);
+    height: 1800px;
+    width: 25%;
+     filter: blur(0.5px);
+    box-shadow: 18px 19px 13px black;
+    
+    
+
+
+}
+ul li{
+    
+
+            list-style-type: circle;
+           font-size: 25px;
+           list-style-type: none;
+            padding: 8px;
+     }
+
+
+
+ul{
+    
+    margin-top: 226px;
+    
+}
+    
+
+a
+{
+            
+        text-decoration: none;
+            padding:7px;
+         color: white;
+   
+ }
+a:hover
+{
+            
+          transition: all .5s ease-out;
+            background-color: white;
+            color: orange;
+            font-size: 35px;
+            border-radius: 35px;
+            box-shadow: 30px 20px 10px black;
+            
+        }
+    
+
+.heading2
+{
+    position: absolute;
+    top: 49px;
+    left: 10px;
+    font-size: 45px;
+    font-family: serif;
+    color: darkblue;
+     text-shadow: 10px 10px 5px white;
+            
+    
+   
+}
+.heading2:hover{
+    
+    font-size: 39px;
+        
+    width: 90%;
+    height: 67px;
+   }
+
+.heading1
+{
+    font-size: 97px;
+    position: absolute;
+    top: 1px;
+    left: 466px;
+    text-shadow: 4px 4px 7px black;
+}
+
+.br1
+{
+
+    color: red;
+    font-size: 65px;
+     position: absolute;
+    top: 123px;
+    left: 466px;
+     text-shadow: 4px 4px 7px black;
+    
+}
+
+#div1
+{
+  height: 29px;
+    width: 9%;
+    background-color: red;
+    position: absolute;
+    top: 283px;
+    left:466px;
+    border-radius: 34px;
+    
+}
+.img1
+{
+  position: absolute;
+    top: 373px;
+    left: 430px;
+    height: 283px;
+    width: 30%;
+    border-radius: 34px; 
+}
+.img1:hover
+{
+  transform: scale(1.2);
+    
+    
+    
+}
+.img2
+{
+  position: absolute;
+    top: 373px;
+    left: 890px;
+    height: 283px;
+    width: 30%;
+    border-radius: 34px;
+     
+     
+}
+
+.img2:hover
+{
+  transform: scale(1.2);
+    
+    
+    
+}
+.img3
+{
+  position: absolute;
+    top: 673px;
+    left: 440px;
+    height: 283px;
+    width: 64%;
+    border-radius: 34px;
+    filter: blur(2px); 
+    
+     
+}
+
+.img3:hover
+{
+    filter: none;
+    
+    
+}
+.img4
+{
+  position: absolute;
+    top: 973px;
+    left: 430px;
+    height: 283px;
+    width: 30%;
+    border-radius: 34px;
+     
+     
+}
+
+.img4:hover
+{
+  transform: scale(1.2);
+    
+    
+    
+}
+
+.img5
+{
+  position: absolute;
+    top: 973px;
+    left: 890px;
+    height: 283px;
+    width: 30%;
+    border-radius: 34px;
+     
+}
+.img5:hover
+{
+  transform: scale(1.2);
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

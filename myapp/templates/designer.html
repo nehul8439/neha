@@ -1,0 +1,353 @@
+<!doctype html>
+<html>
+<head>
+    <title>Interior design</title>
+	{% load static %}
+    <meta charset="utf-8">
+    <style>
+    .aside
+{
+    position: fixed;
+    background:linear-gradient(to bottom left,red,red,white);
+    height: 1600px;
+    width: 25%;
+     filter: blur(0.5px);
+    box-shadow: 18px 19px 13px black;
+    
+    
+
+
+}
+ul li{
+    
+
+            list-style-type: circle;
+           font-size: 25px;
+           list-style-type: none;
+            padding: 8px;
+     }
+
+
+
+ul{
+    
+    margin-top: 226px;
+    
+}
+    
+
+a
+{
+            
+        text-decoration: none;
+            padding: 7px;
+         color: white;
+   
+ }
+a:hover
+{
+            
+          transition: all .5s ease-out;
+            background-color: white;
+            color: orange;
+            font-size: 35px;
+            border-radius: 35px;
+            box-shadow: 30px 20px 10px black;
+            
+        }
+    
+
+.heading2
+{
+    position: absolute;
+    top: 49px;
+    left: 10px;
+    font-size: 45px;
+    font-family: serif;
+    color: darkblue;
+     text-shadow: 10px 10px 5px white;
+            
+    
+   
+}
+.heading2:hover{
+    
+    font-size: 39px;
+        
+    width: 90%;
+    height: 67px;
+   }
+
+.heading1
+{
+    font-size: 97px;
+    position: absolute;
+    top: 1px;
+    left: 466px;
+    text-shadow: 4px 4px 7px black;
+}
+
+.br1
+{
+
+    color: red;
+    font-size: 65px;
+     position: absolute;
+    top: 123px;
+    left: 466px;
+     text-shadow: 4px 4px 7px black;
+    
+}
+
+#div1
+{
+  height: 29px;
+    width: 9%;
+    background-color: red;
+    position: absolute;
+    top: 283px;
+    left:466px;
+    border-radius: 34px;
+    
+}
+    
+    
+    .heading3{
+            
+            position: absolute;
+            top: 320px;
+            left: 410px;
+            font-size: 20px;
+            color: black;
+            font-family: cursive;
+            text-shadow: 4px 4px 2px red;
+            text-align: justify;
+        }
+    
+    
+        .heading4{
+            
+            position: absolute;
+            top: 650px;
+            left: 420px;
+            font-family: fantasy;
+            font-size: 46px;
+            color:blue;
+            text-shadow: 6px 6px 4px hotpink;
+            
+        }
+        
+        .img1{
+           position: absolute;
+            top: 870px;
+            left: 420px;
+            height: 270px;
+            width: 30%;
+           box-shadow: 12px 10px 9px grey;
+            filter: blur(5px);
+            
+            
+        }
+        
+        .img1:hover{
+            
+            filter:none;
+            
+        }
+        
+        .div2{
+            
+            position: absolute;
+            top: 1190px;
+            left: 420px;
+            background-color: lightgrey;
+            height: 198px;
+            width: 30%;
+            box-shadow: 12px 9px 9px black;
+            
+        }
+        
+        
+        
+        .img2{
+           position: absolute;
+            top: 870px;
+            left: 880px;
+            height: 270px;
+            width: 30%;
+             box-shadow: 12px 10px 9px grey;
+            filter: blur(5px);
+            
+        }
+        
+        .img2:hover{
+            
+            filter: none;
+            
+        }
+        
+        .div3{
+            
+            position: absolute;
+            top: 1190px;
+            left: 880px; 
+          background-color: lightgrey;
+            height: 198px;
+            width: 30%;
+              box-shadow: 12px 9px 9px black;
+               
+        }
+        
+        .img3{
+            
+            position: absolute;
+            top: 1470px;
+            left: 660px;
+            height: 270px;
+            width: 30%;
+             box-shadow: 12px 10px 9px grey;
+            
+            filter: blur(5px);
+            
+            
+        }
+        
+        .img3:hover{
+            
+            filter: none;
+            
+        }
+        
+        .div4{
+            
+         position: absolute;
+            top: 1790px;
+            left: 665px; 
+          background-color: lightgrey;
+            height: 198px;
+            width: 30%;
+              box-shadow: 12px 9px 9px black;   
+            
+        }
+        .heads1{
+            
+            position: absolute;
+            top: -22px;
+            left: 120px;
+            font-family: fantasy;
+            font-size: 30px;
+            color:black;
+            text-shadow: 6px 6px 4px red;
+            
+            
+        }
+        .heads2{
+            
+            position: absolute;
+            top: -22px;
+            left: 122px;
+            font-family: fantasy;
+            font-size: 30px;
+            color:black;
+            text-shadow: 6px 6px 4px red;
+            
+            
+        }
+    
+        .heads3{
+            
+            position: absolute;
+            top: -17px;
+            left: 150px;
+            font-family: fantasy;
+            font-size: 30px;
+            color:black;
+            text-shadow: 6px 6px 4px red;
+            
+        }
+        .p1{
+            
+           position: absolute;
+            top: 60px;
+            left: 55px;
+            font-size: 20px;
+            color: green;
+            font-family: cursive;
+            text-shadow: 4px 4px 2px white;
+            
+            
+            
+        }
+        
+        .p2{
+            
+            position: absolute;
+            top: 60px;
+            left: 70px;
+            font-size: 20px;
+            color: green;
+            font-family: cursive;
+            text-shadow: 4px 4px 2px white;
+        
+            
+            
+            
+        }
+        
+        .p3{
+            
+            position: absolute;
+            top: 70px;
+            left: 60px;
+            font-size: 20px;
+            color: green;
+            font-family: cursive;
+            text-shadow: 4px 4px 2px white;
+            
+            
+            
+        }
+   
+    
+    </style>
+          </head>
+    
+    <body>
+        <div class="aside"><h2 class="heading2">Home Interocity</h2>
+            <ul>
+              <li><a href="/myapp">Home</a></li>
+              <li><a href="service">Services</a></li>
+             <li><a href="designer">Designers</a></li>
+            <li><a href="package">Packages</a></li>
+             <li><a href="contact">Contacts</a></li>
+			 <li><a href="login">Login</a></li>
+			  <li><a href="register">Register</a></li>
+              <li><a href="signup">Signup</a></li>
+            
+            
+            </ul>
+        </div>
+        <h1 class="heading1">Interior Design
+            <h3 class="br1">Designers</h3></h1>
+        <div id="div1"></div>
+        
+        
+        <h3 class="heading3">The best team in the world.
+
+We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
+        
+        <h4 class="heading4">Our designers are thoughtfully chosen:</h4>
+        <img class="img1" src="{% static 'images/john.jpg' %}"/>
+        <img class="img2" src="{% static 'images/jane.jpg' %}"/>
+        <img class="img3" src="{% static 'images/mike.jpg' %}"/>
+        
+        <div class="div2"><h3 class="heads1">John Doe<br>[CEO & Founder]<h4 class="p1">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum</h4></h3></div>
+        
+        
+        <div class="div3"><h3 class="heads2">Jane Doe<br>[Designer]<h4 class="p2">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</h4></h3>/</div>
+        
+        
+        <div class="div4"><h3 class="heads3">Mike Ross<br>[Architect]<h4 class="p3">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</h4></h3></div>
+    
+    </body>
+</html>
